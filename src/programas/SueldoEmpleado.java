@@ -27,6 +27,7 @@ public class SueldoEmpleado {
         sueldoNeto = sueldoBruto - descuento;
         
         // Salida de Datos
+        System.out.println("Resultados" + sueldoBruto); // Agregado
         System.out.println("Sueldo Bruto: " + sueldoBruto);
         System.out.println("Descuento: " + descuento);
         System.out.println("Sueldo Neto: " + sueldoNeto);
